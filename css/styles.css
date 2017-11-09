@@ -1,12 +1,31 @@
 body {
-    margin: 0 auto; /*Vi sätter margin 0 på top/bottom och auto på left/right*/
-    width: 600px; /*Vi sätter en bredd på webbsidan till 600px*/
-    font-size: 16px; /*Vi sätter en standard på text-storlek till 16px*/
+    margin: 0 auto;     /*Vi sätter margin 0 på top/bottom och auto på left/right*/
+    width: 600px;       /*Vi sätter en bredd på webbsidan till 600px*/
+    font-size: 20px;    /*Vi sätter en standard på text-storlek till 16px*/
+    background-image: url(../img/tele.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    
 }
 
-h1 { /*Selektor för h1*/
-    text-align: center; /*Vi centrerar texten*/
-    font-size: 450%; /*Vi sätter en text-storlek till 450% av vår standard*/
-    color:#00ff3b /*Vi väljer textens färg med hjälp av hexkod*/
-    border-bottom: 2px solid black; /*Vi skapar en border på undersidan, 2px tjock, solid och svart färg*/
+h1 {                                    /*Selektor för h1*/
+    text-align: center;                 /*Vi centrerar texten*/
+    font-size: 450%;                    /*Vi sätter en text-storlek till 450% av vår standard*/
+    color:#ff0000;                      /*Vi väljer textens färg med hjälp av hexkod*/
+    border-bottom: 2px solid black;     /*Vi skapar en border på undersidan, 2px tjock, solid och svart färg*/
+    
+}
+
+p {                     /*Selektor för paragraf*/
+    font-size: 120%;    /*Vi sätter en text-storlek till 120% av vår standard*/
+    padding: 0 20px;    /*Vi sätter en padding på 0 i top/bottom och 20px på left/right*/
+    text-align: justify; /*Vi sätter en justify som text-align - bakar ut texten snyggt*/
+    color:#ffffff
+    
+}
+
+li {                    /*Selektor för varja lista/li element*/
+    float:left;         /*Vi säger åt vår lista att lägga sig till vänster*/
+    margin-left: 20px;  /*Vu sätter en vänster-mariginal på 40px*/
+    
 }
