@@ -6,6 +6,7 @@ body {
 
 h1 { /*Selektor för h1*/
     text-align: center; /*Vi centrerar texten*/
-    font-size: 450%; /*Vi sätter en text-storlek till 450% av vår standard/*
-    
+    font-size: 450%; /*Vi sätter en text-storlek till 450% av vår standard*/
+    color:#00ff3b /*Vi väljer textens färg med hjälp av hexkod*/
+    border-bottom: 2px solid black; /*Vi skapar en border på undersidan, 2px tjock, solid och svart färg*/
 }
